@@ -43,7 +43,7 @@ namespace StudentExercisesAPI.Controllers
                     List<Exercise> Exercises = new List<Exercise>();
 
                     while (reader.Read())
-                    {
+                    { 
                         Exercise exercise = new Exercise
                         {
                             Id = reader.GetInt32(reader.GetOrdinal("Id")),
